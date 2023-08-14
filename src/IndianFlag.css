@@ -1,0 +1,48 @@
+.indian-flag {
+    display: flex;
+    width: 240px;
+    height: 160px;
+    margin-left: 620px;
+  }
+  
+  .saffron-bar {
+    flex: 2;
+    background-color: #ff9933;
+  }
+  
+  .white-bar {
+    flex: 5;
+    background-color: white;
+    position: relative;
+  }
+  
+  .green-bar {
+    flex: 2;
+    background-color: #138808;
+  }
+  
+  .chakra {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    left: calc(50% - 40px);
+  }
+  
+  .chakra-circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #000080;
+    border-radius: 50%;
+  }
+  
+  .chakra-spoke {
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background-color: white;
+    top: 25px;
+    left: 39px;
+    transform-origin: bottom;
+  }
